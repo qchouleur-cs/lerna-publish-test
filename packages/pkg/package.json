@@ -1,7 +1,7 @@
 {
-  "name": "crapicrappackage",
+  "name": "@contentsquare/crapicrappackage",
   "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "bd2466129fe0819a3e622e51c4d6486029d59a3f"
+  "gitHead": "80ecf1817b2a0f6fc10f6b32ade8ab2833e4be4c"
 }

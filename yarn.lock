@@ -32,6 +32,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@contentsquare/crap@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@contentsquare/crap@workspace:."
+  dependencies:
+    "@lerna-lite/cli": 1.11.2
+    "@lerna-lite/run": 1.11.2
+  languageName: unknown
+  linkType: soft
+
+"@contentsquare/crapicrappackage@workspace:packages/pkg":
+  version: 0.0.0-use.local
+  resolution: "@contentsquare/crapicrappackage@workspace:packages/pkg"
+  languageName: unknown
+  linkType: soft
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -1147,21 +1162,6 @@ __metadata:
   checksum: 3cd38525ba22e13da0ef9f4be131df226c94f5b96fb50f6297eb17baeedefe15cf5819f8c73cde69f71cc5034e712c86bd20c7756883dd8094087680ecc25932
   languageName: node
   linkType: hard
-
-"crap@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "crap@workspace:."
-  dependencies:
-    "@lerna-lite/cli": 1.11.2
-    "@lerna-lite/run": 1.11.2
-  languageName: unknown
-  linkType: soft
-
-"crapicrappackage@workspace:packages/pkg":
-  version: 0.0.0-use.local
-  resolution: "crapicrappackage@workspace:packages/pkg"
-  languageName: unknown
-  linkType: soft
 
 "cross-spawn@npm:^7.0.3":
   version: 7.0.3
