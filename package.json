@@ -1,0 +1,10 @@
+{
+  "name": "crap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@lerna-lite/cli": "1.11.2",
+    "@lerna-lite/run": "1.11.2"
+  }
+}
