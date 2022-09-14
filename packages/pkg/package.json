@@ -3,5 +3,9 @@
   "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "80ecf1817b2a0f6fc10f6b32ade8ab2833e4be4c"
+  "gitHead": "cfac0a7699bd1b86243d05f20f0376831abea4e4",
+  "scripts": {
+    "publish": "npx lerna publish --conventional-commits -y --no-verify-access",
+    "version": "yarn --mode=update-lockfile --no-immutable && git add yarn.lock"
+  }
 }
