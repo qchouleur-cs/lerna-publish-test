@@ -6,5 +6,9 @@
   "devDependencies": {
     "@lerna-lite/cli": "1.11.2",
     "@lerna-lite/run": "1.11.2"
+  },
+  "scripts": {
+    "publish": "npx lerna publish --conventional-commits -y --no-verify-access",
+    "version": "yarn --mode=update-lockfile --no-immutable && git add yarn.lock"
   }
 }

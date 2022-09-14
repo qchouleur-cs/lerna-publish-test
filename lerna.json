@@ -1,0 +1,15 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": ["yarn.lock", "package-lock.json", "*.log", ".infra/*"]
+    },
+    "version": {
+      "allowBranch": ["master"],
+      "conventionalCommits": true,
+      "message": "chore(release) [skip-ci]: publish"
+    }
+  },
+  "version": "independent"
+}
