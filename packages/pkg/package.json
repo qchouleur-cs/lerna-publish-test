@@ -1,11 +1,7 @@
 {
   "name": "@contentsquare/crapicrappackage",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "cfac0a7699bd1b86243d05f20f0376831abea4e4",
-  "scripts": {
-    "publish": "npx lerna publish --conventional-commits -y --no-verify-access",
-    "version": "yarn --mode=update-lockfile --no-immutable && git add yarn.lock"
-  }
+  "gitHead": "cfac0a7699bd1b86243d05f20f0376831abea4e4"
 }
